@@ -5,7 +5,7 @@ The following is a list of some practical and common mini-projects and projects 
 <h2>
   Mini-Projects & web elements:
 </h2>
-  <ul>
+  <ol>
     <li>
       Slider
     </li>
@@ -18,7 +18,7 @@ The following is a list of some practical and common mini-projects and projects 
 	<li>
       Login form (design #2)
     </li>
-  </ul>
+  </ol>
 <h2>
   Projects (Fully responsive, small-scale projects):
 </h2>
