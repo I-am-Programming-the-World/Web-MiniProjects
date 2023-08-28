@@ -10,7 +10,7 @@ The following is a list of some practical and common mini-projects and projects 
       Slider
     </li>
     <li>
-      Progress bar: <p>a progress bar with circular progress indicators and to buttons for navigation.</p>
+      Progress bar: <p>A progress bar with circular progress indicators and two buttons for navigation.</p>
     </li>
 	<li>
       Login form (design #1)
