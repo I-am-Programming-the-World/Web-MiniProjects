@@ -1,4 +1,4 @@
-<h1>C</h1>
+<h1>Front-End Mini-projects</h1>
 This particular repository was made for showcasing some front-end projects.
 <br>
 The following is a list of some practical and common mini-projects and projects coded in HTML-CSS-JS-ReactJS-NextJS:
@@ -10,7 +10,7 @@ The following is a list of some practical and common mini-projects and projects 
       Slider
     </li>
     <li>
-      Progress bar
+      Progress bar: <p>a progress bar with circular progress indicators and to buttons for navigation.</p>
     </li>
 	<li>
       Login form (design #1)
