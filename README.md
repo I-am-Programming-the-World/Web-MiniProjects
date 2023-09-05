@@ -19,20 +19,3 @@ The following is a list of some practical mini-projects and projects developed u
       Login form (design #2)
     </li>
   </ol>
-<h2>
-  Projects (Fully responsive, small-scale projects):
-</h2>
-    <ul>
-		<li>
-		  <h3>Youtube UI clone</h3>
-		</li>
-		<li>
-		  <h3>Travel website</h3>
-		</li>
-		<li>
-		  <h3>Personal portfolio website (design #1)</h3>
-		</li>
-		<li>
-		  <h3>Personal portfolio website (design #2)</h3>
-		</li>
-	</ul>
