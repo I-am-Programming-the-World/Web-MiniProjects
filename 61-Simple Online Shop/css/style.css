@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#top-navigation {
+    background-color: #eeeeee;
+    color: #000;
+}
+#top-navigation-logo {
+    width: 50px;
+    float: right;
+    margin: -5px 5px 10px 0px;
+}
+#top-navigation > ul {
+    list-style: none;
+}
+#top-navigation > ul > li {
+    display: inline-block;
+    font-size: 21px;
+    padding: 10px 25px 10px 25px;
+    border-right: 1px solid #ccc;
+    transition: all 0.3 ease;
+}
+#top-navigation > ul > li:hover {
+    background-color: #999;
+}
+#top-navigation > ul > li > a {
+    text-decoration: none;
+    color: #111;
+}
+.header-slide {
+    width: 100%;
+}
+.header-slide img {
+    width: 100%;
+}
+#products {
+    text-align: center;
+}
+#products-title {
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}
+#products-list {
+    width: 90%;
+    margin: 0 auto;
+}
+.products-list-item {
+    display: inline-block;
+    width: 30%;
+}
+.products-list-item h3 {
+    text-align: center;
+}
+.products-list-item img {
+    width: 100%;
+}
+#about-title {
+    font-size: 36px;
+}
+.about-us {
+    background-image: #eee;
+    padding: 20px 50px;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+.about-us #description {
+    width: 67.5%;
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: justify;
+}
+.footer {
+    background-color: rgb(22, 25, 44);
+    min-height: 200px;
+    color: #fff;
+}
+.footer > h4 {
+    margin: 0px 0px 0px 10px;
+}
+.footer #left-footer {
+    display: inline-block;
+    text-align: justify;
+    width: 45%;
+    margin: 0 auto;
+    padding: 22.5px;
+}
+.footer #right-footer {
+    display: inline-block;
+    width: 45%;
+    margin: 0 auto;
+}
+.footer #right-footer > ul {
+    list-style: none;
+    text-align: left;
+}
+.footer #right-footer > ul li {
+    padding: 5px;
+    margin-left: 25px;
+}
+.footer #right-footer > ul a {
+    color: #eee;
+}
+.footer #right-footer #footer-logo {
+    position: relative;
+    float: right;
+    bottom: 150px;
+}
+.footer #right-footer q {
+    display: inline-block;
+}
