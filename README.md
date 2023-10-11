@@ -3,7 +3,7 @@ This repository was made to showcase some front-end projects.
 <br>
 The following is a list of some practical mini-projects and components developed using HTML-CSS-JS-ReactJS & NextJS:
 <h2>
-  Mini-Projects & web elements:
+  Mini-Projects & website elements:
 </h2>
   <ol>
     <li>
