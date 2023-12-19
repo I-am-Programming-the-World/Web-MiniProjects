@@ -18,4 +18,8 @@ The following is a list of some practical mini-projects and components developed
 	<li>
       Login form (design #2)
     </li>
+	
+	<li>
+      Simple Online Shop
+    </li>
   </ol>
