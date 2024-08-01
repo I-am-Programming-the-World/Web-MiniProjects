@@ -13,6 +13,9 @@ The following is a list of some practical mini-projects and components developed
       Progress bar: <p>A progress bar with circular progress indicators and two buttons used for navigation.</p>
     </li>
 	<li>
+      Custom Cursor: <p>Creates a dynamic, multi-colored custom cursor tracker effect on any given webpage.</p>
+    </li>
+	<li>
       Login form (design #1)
     </li>
 	<li>
