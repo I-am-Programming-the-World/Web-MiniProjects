@@ -12,6 +12,7 @@
             const elm = document.createElement('div');
             elm.style.top = `${event.clientY}px`;
             elm.style.left = `${event.clientX}px`;
+			elm.style.background = getRandomColor();
             elm.className = 'circle';
             document.body.appendChild(elm);
 
@@ -19,6 +20,15 @@
                 document.body.removeChild(elm);
             }, 1000);
         });
+		
+		function getRandomColor() {
+            const letters = '0123456789abcdef'; //Standard hexadecimal color code characters.
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * letters.length)];
+            }
+            return color;
+        }
     </script>
 </body>
 </html>
