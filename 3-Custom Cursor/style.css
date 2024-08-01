@@ -2,3 +2,25 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Circle class styling */
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    animation: aa 1s 1;
+}
+@keyframes aa {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
