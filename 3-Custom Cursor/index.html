@@ -7,6 +7,18 @@
     <title>Custom Cursor</title>
 </head>
 <body>
-	<div class="circle"></div>
+	<script type="text/javascript">
+        document.addEventListener('mousemove', function(event) {
+            const elm = document.createElement('div');
+            elm.style.top = `${event.clientY}px`;
+            elm.style.left = `${event.clientX}px`;
+            elm.className = 'circle';
+            document.body.appendChild(elm);
+
+            setTimeout(() => {
+                document.body.removeChild(elm);
+            }, 1000);
+        });
+    </script>
 </body>
 </html>
