@@ -16,6 +16,9 @@ The following is a list of some practical mini-projects and components developed
       Custom Cursor: <p>Creates a dynamic, multi-colored custom cursor tracker effect on any given webpage.</p>
     </li>
 	<li>
+      Modern responisve hamburger menu
+    </li>
+	<li>
       Login form (design #1)
     </li>
 	<li>
