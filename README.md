@@ -19,6 +19,9 @@ The following is a list of some practical mini-projects and components developed
       Modern responisve hamburger menu
     </li>
 	<li>
+      Simple web calculator #1: <p>Simple web calculator with the 4 main mathematical operations.</p>
+    </li>
+	<li>
       Login form (design #1)
     </li>
 	<li>
