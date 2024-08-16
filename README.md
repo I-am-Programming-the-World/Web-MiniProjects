@@ -22,6 +22,9 @@ The following is a list of some practical mini-projects and components developed
       Simple web calculator #1: <p>Simple web calculator with the 4 main mathematical operations.</p>
     </li>
 	<li>
+      Online digital clock
+    </li>
+	<li>
       Login form (design #1)
     </li>
 	<li>
