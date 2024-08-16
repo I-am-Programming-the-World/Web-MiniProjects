@@ -22,4 +22,7 @@ setInterval(() => {
     }
 
     var clockTime = hours + ":" + minutes + ":" + seconds + " " + period;
+
+    var clock = document.getElementById('clock');
+    clock.innerText = clockTime;
 }, 1000);
