@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
 }
 .pricing-table {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -15,17 +15,19 @@ body {
 }
 .col {
     flex: 25%;
-    padding: 10px;
-    max-width: 320px;
+    padding: 1%;
+    max-width: 640px;
     box-sizing: border-box;
 }
 .table {
     background: #fff;
     padding: 10% 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px #00000070;
+    border-radius: 10px;
 }
 .table h2 {
     text-transform: uppercase;
@@ -37,11 +39,11 @@ body {
     list-style-type: none;
 }
 .table ul li {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .table a {
     display: block;
-    padding: 2vh 2vw;
+    padding: 1vh 1vw;
     margin: 10% 0;
     text-decoration: none;
     color: #2c3e50;
@@ -73,13 +75,44 @@ body {
     display: block;
     font-size: 1.2rem;
 }
-@media screen and (max-width: 980) {
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 980px) {
     .col {
         flex: 50%;
     }
-}
-@media screen and (max-width: 660) {
-    .col {
-        flex: 100%;
+    .table h2 {
+        font-size: 1.8rem;
     }
-}
+    .price {
+        font-size: 30px;
+    }
+    .price span {
+        font-size: 1rem;
+    }
+    .table a {
+        font-size: 1rem;
+    }
+ }
+ 
+ @media screen and (max-width: 660px) {
+    .col {
+        flex-basis: 100%;
+        max-width: 95vw;
+        padding: 2px;
+    }
+    .col:last-child {
+        margin-bottom: 15%;
+    }
+    .table h2 {
+        font-size: 1.5rem;
+    }
+    .price {
+        font-size: 25px;
+    }
+    .price span {
+        font-size: .9rem;
+    }
+    .table a {
+        font-size:.9rem;
+    }
+ }
