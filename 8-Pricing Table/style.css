@@ -75,3 +75,44 @@ body {
     display: block;
     font-size: 1.2rem;
 }
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 980px) {
+    .col {
+        flex: 50%;
+    }
+    .table h2 {
+        font-size: 1.8rem;
+    }
+    .price {
+        font-size: 30px;
+    }
+    .price span {
+        font-size: 1rem;
+    }
+    .table a {
+        font-size: 1rem;
+    }
+ }
+ 
+ @media screen and (max-width: 660px) {
+    .col {
+        flex-basis: 100%;
+        max-width: 95vw;
+        padding: 2px;
+    }
+    .col:last-child {
+        margin-bottom: 15%;
+    }
+    .table h2 {
+        font-size: 1.5rem;
+    }
+    .price {
+        font-size: 25px;
+    }
+    .price span {
+        font-size: .9rem;
+    }
+    .table a {
+        font-size:.9rem;
+    }
+ }
