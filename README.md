@@ -31,6 +31,9 @@ The following is a list of some practical mini-projects and components developed
       Login form (design #1)
     </li>
 	<li>
+      Pricing Table - Simple, elegant pricing table with a featured package
+    </li>
+	<li>
       Login form (design #2)
     </li>
 	<li>
