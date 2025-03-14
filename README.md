@@ -34,6 +34,9 @@ The following is a list of some practical mini-projects and components developed
 	  Epic Digital Clock - Smooth, elegant clock with hh:mm:ss and date indicators.
 	</li>
 	<li>
+	  Elegant Digital Clock - A different variation on a simple clock with a button for changing between formats.
+	</li>
+	<li>
       Online digital multi-clock: <p>Simple digital clock showcasing the global time in different time zones.</p>
     </li>
 	<li>
