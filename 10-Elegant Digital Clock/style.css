@@ -90,3 +90,13 @@ button:hover {
     opacity: 0.9;
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    .time {
+        font-size: 1.8rem;
+    }
+    
+    .clocks-grid {
+        grid-template-columns: 1fr;
+    }
+}
