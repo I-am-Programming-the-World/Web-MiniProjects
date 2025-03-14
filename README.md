@@ -25,13 +25,16 @@ The following is a list of some practical mini-projects and components developed
       Online digital clock: <p>Simple digital clock showing local server time.</p>
     </li>
 	<li>
-      Online digital multi-clock: <p>Simple digital clock showcasing the global time in different time zones.</p>
-    </li>
-	<li>
       Login form (design #1)
     </li>
 	<li>
       Pricing Table - Simple, elegant pricing table with a featured package
+    </li>
+	<li>
+	  Epic Digital Clock - Smooth, elegant clock with hh:mm:ss and date indicators.
+	</li>
+	<li>
+      Online digital multi-clock: <p>Simple digital clock showcasing the global time in different time zones.</p>
     </li>
 	<li>
       Login form (design #2)
