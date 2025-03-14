@@ -1,0 +1,22 @@
+:root {
+    --neon-blue: #08f;
+    --neon-pink: #ff00ff;
+    --background-gradient: linear-gradient(45deg, #00172d, #000000);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-gradient);
+    animation: gradientShift 20s ease infinite;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
