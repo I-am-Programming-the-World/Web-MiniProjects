@@ -54,3 +54,29 @@ body {
     color: var(--neon-pink);
     text-shadow: 0 0 10px var(--neon-pink);
 }
+
+@keyframes glowPulse {
+    from {
+        filter: brightness(1);
+        box-shadow: 0 0 30px var(--neon-blue),
+                    inset 0 0 15px var(--neon-blue);
+    }
+    to {
+        filter: brightness(1.2);
+        box-shadow: 0 0 50px var(--neon-blue),
+                    inset 0 0 25px var(--neon-blue);
+    }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@media (max-width: 768px) {
+    #clock {
+        padding: 20px 30px;
+        font-size: clamp(2rem, 12vw, 8rem);
+    }
+}
