@@ -30,3 +30,9 @@ function updateClock() {
     // Update the date div
     document.getElementById('date').innerHTML = dateString;
 }
+
+// Update the clock every second (1000 milliseconds)
+setInterval(updateClock, 1000);
+
+// Set the initial time and date immediately on page load
+updateClock();
