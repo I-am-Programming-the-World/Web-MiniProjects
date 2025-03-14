@@ -23,3 +23,70 @@ body {
     max-width: 1200px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+h1 {
+    color: var(--primary);
+    font-weight: 700;
+    margin: 0;
+}
+
+.clocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+.clock-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease;
+}
+
+.clock-card:hover {
+    transform: translateY(-5px);
+}
+
+.location {
+    color: var(--secondary);
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 1.5px;
+}
+
+.timezone {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    background: var(--secondary);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
